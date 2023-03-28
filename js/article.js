@@ -8,6 +8,9 @@ $( document ).ready(function() {
     $(".header-link_block").on("click",function(){
       $('.header_submenu').removeClass('show');
       $(this).children('.header_submenu').toggleClass('show');
+    });
 
-  });
+    $(".filter").on("click",function(){
+      $('.settings-box').slideToggle();
+    });
 });

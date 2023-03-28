@@ -835,6 +835,10 @@ textarea {
 
 /*-- END BURGER MENU --*/
 
+.filter-block {
+    display: none;
+}
+
 @media screen and (max-width:1400px) {
     .header-menu .header-link_block:nth-child(3) .header_submenu, .header-menu .header-link_block:nth-child(4) .header_submenu  {
         right: 0;
@@ -952,6 +956,28 @@ textarea {
 
     .header_submenu.show {
         display: block!important;
+    }
+
+    .filter-block {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    .filter {
+        background: var(--mainRed);
+        font-size: 18px;
+        padding: 8px 17px;
+        color: #fff;
+    }
+
+    .settings-box {
+        margin-top: 15px;
+        display: none;
+    }
+
+    .settings-box.show {
+        display: block;
     }
 }
 
