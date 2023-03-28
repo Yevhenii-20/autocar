@@ -420,7 +420,7 @@ a {
 :root {
     --black: #000;
     --grey: #333;
-    --mainRed: #db2d2e;
+    --mainRed: #b72324;
 }
 
 body {
@@ -560,6 +560,7 @@ textarea {
     background-color: #fff;
     width: 100%;
     margin-bottom: 10px;
+    color: #000;
 }
 
 .flex-result {
